@@ -57,7 +57,8 @@ export default {
             } 
             if ( this.weatherSatus == 'Clouds' ) {
                 this.svg == 'cloudy';
-            } else {
+            } 
+            if ( this.weatherSatus == 'Clear' ) {
                 this.svg = 'sunny';
             }
         },
